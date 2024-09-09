@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean definition for player1 -->
+    <bean id="player1" class="com.hexa.maven1.com.hexamaven1.Cricket_Player">
+        <property name="playerId" value="1" />
+        <property name="name" value="Suresh Raina" />
+        <property name="runsScored" value="5432" />
+    </bean>
+
+    <!-- Bean definition for player2 -->
+    <bean id="player2" class="com.hexa.maven1.com.hexamaven1.Cricket_Player">
+        <property name="playerId" value="2" />
+        <property name="name" value="Virat Kohli" />
+        <property name="runsScored" value="7211" />
+    </bean>
+
+    <!-- Bean definition for player3 -->
+    <bean id="player3" class="com.hexa.maven1.com.hexamaven1.Cricket_Player">
+        <property name="playerId" value="3" />
+        <property name="name" value="Rohit Sharma" />
+        <property name="runsScored" value="9453" />
+    </bean>
+
+    <!-- Bean definition for player4 -->
+    <bean id="player4" class="com.hexa.maven1.com.hexamaven1.Cricket_Player">
+        <property name="playerId" value="4" />
+        <property name="name" value="MS Dhoni" />
+        <property name="runsScored" value="8292" />
+    </bean>
+
+</beans>

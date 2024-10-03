@@ -1,0 +1,69 @@
+/* Container for the add book form */
+.add-book-container {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Header for the form */
+  .add-book-container h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333333;
+  }
+  
+  /* Form input fields */
+  .add-book-container .ui.form .field > input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #d4d4d5;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Change input border color on focus */
+  .add-book-container .ui.form .field > input:focus {
+    border-color: #85b7d9;
+  }
+  
+  /* Submit button */
+  .add-book-container .ui.button {
+    background-color: #2185d0;
+    color: #ffffff;
+    width: 100%;
+    padding: 14px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  .add-book-container .ui.button:hover {
+    background-color: #1678c2;
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 600px) {
+    .add-book-container {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .add-book-container h2 {
+      font-size: 1.8em;
+    }
+  
+    .add-book-container .ui.button {
+      font-size: 1.1em;
+      padding: 12px;
+    }
+  }
+  
